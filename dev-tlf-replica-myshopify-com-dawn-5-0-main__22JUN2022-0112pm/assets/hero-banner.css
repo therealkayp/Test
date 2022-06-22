@@ -1,0 +1,676 @@
+  #shopify-section-template--14622519656585__16472265791f5bc6da .main-banner-heading {
+    align-self: center !important;
+    bottom: auto !important;
+}
+
+.hero-image-banner {
+    margin-top: 0 !important;
+    width: 100% !important
+}
+
+.hero-image-banner div.desktop {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 150px;
+    right: 0;
+    height: auto
+}
+
+.hero-image-banner .desktop svg {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    align-self: center;
+    height: 100%
+}
+
+.hero-image-banner div.mobile {
+    display: none;
+    position: absolute;
+    left: 0;
+    transform: translateY(-50%) !important;
+    top: 50%;
+    height: auto;
+    bottom: unset;
+    right: 0;
+    line-height: 0
+}
+
+svg.hero__image-lockup-mobile {
+    filter: drop-shadow(0 3px 14px rgba(0, 0, 0, .3))
+}
+
+.hero-image-banner div.desktop svg.hero__image-lockup {
+    filter: drop-shadow(0 3px 14px rgba(0, 0, 0, .3))
+}
+
+.hero-image-banner div.desktop svg.hero__image-lockup {
+    width: auto;
+    max-width: 30%;
+    padding: 10px
+}
+
+.hero-image-banner div.desktop svg.hero__image-lockup path {
+    fill: #fbf6e6
+}
+
+#shopify-section-template--14966914515132__1631000625b194dfac .crop-image-container .crop-image.hero_image[data-v-460a2e77] {
+    min-height: unset;
+    height: unset;
+    max-height: unset
+}
+
+.shopify-section.hero-image-banner .inner_banner span.title {
+    margin: 0 !important
+}
+
+.shopify-section.hero-image-banner .inner_banner span.title {
+    font-size: 2.25rem !important;
+    color: #fbf6e6 !important;
+    text-shadow: 2px 1.5px 2px rgb(30 30 30 / 90%);
+    line-height: 1 !important
+}
+
+.shopify-section.hero-image-banner .inner_banner span.title::after {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #fbf6e6;
+    left: 0;
+    top: 14px;
+    right: -487px;
+    position: absolute;
+    z-index: 999;
+    margin: auto
+}
+
+.inner_banner .line-one {
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    left: 0 !important;
+    right: 0 !important
+}
+
+.shopify-section.hero-image-banner .inner_banner span.title::before {
+    content: "";
+    height: 3px;
+    background-color: #fbf6e6;
+    left: -487px;
+    top: 14px;
+    right: 0;
+    position: absolute;
+    z-index: 999;
+    margin: auto;
+    width: 100px
+}
+
+.shopify-section.hero-image-banner .inner_banner .line-two {
+    font-size: 1rem !important;
+    line-height: 2rem !important;
+    margin-bottom: 0;
+    text-shadow: 2px 1.5px 2px rgb(30 30 30 / 90%);
+    color: #fbf6e6 !important
+}
+
+.main-banner-heading {
+    max-width: 600px;
+    margin: 0 auto 1em;
+    width: 100%;
+    align-self: end;
+    position: relative;
+    text-shadow: unset;
+    margin-bottom: 70px;
+}
+.main-fancy-heading:before {
+    content: "";
+    background-color: #fbf6e6;
+    position: absolute;
+    display: block;
+    top: 40%;
+    height: 2px;
+    left: 0;
+    right: calc(65% + 80px)
+}
+
+.main-banner-heading h1 {
+    font-size: 2.25rem;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.main-fancy-heading:after {
+    content: "";
+    background-color: #fbf6e6;
+    position: absolute;
+    display: block;
+    top: 40%;
+    height: 2px;
+    left: calc(65% + 80px);
+    right: 0
+}
+
+.line-one {
+    font-size: 2.25rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    position: relative
+}
+
+.down-arrow img {
+    width: 26px
+}
+
+.mouse {
+    display: none
+}
+
+@media only screen and (max-width:767px) {
+    .shopify-section.hero-image-banner .inner_banner span.title::before {
+        left: -285px;
+        width: 40px
+    }
+    .shopify-section.hero-image-banner .inner_banner span.title::after {
+        width: 40px;
+        right: -285px
+    }
+    .shopify-section.hero-image-banner .inner_banner span.title {
+        width: 65% !important
+    }
+    .shopify-section.hero-image-banner .story-third .main-banner-heading {
+        margin-left: 0 !important;
+        margin-top: 30% !important;
+        line-height: 1.33 !important;
+        align-self: auto !important
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .hero-image-banner div.desktop {
+        display: none
+    }
+    .hero-image-banner div.mobile {
+        display: block
+    }
+    .hero-image-banner div.mobile svg.hero__image-lockup-mobile {
+        width: 245px;
+        padding: 10px
+    }
+    .hero-image-banner div.mobile svg.hero__image-lockup-mobile path {
+        fill: #fbf6e6
+    }
+}
+
+@media(min-width:768px) {
+    #shopify-section-template--14602179379337__1647003345393938b3 .main-banner-heading a.button, #shopify-section-template--14628550541449__16475394684543ff1e .main-banner-heading a.button, #shopify-section-template--14622950064265__16475362050121363a .main-banner-heading a.button {
+    display: none;
+}
+}
+
+@media(max-width:767px) {
+  #shopify-section-template--14602179379337__1647003345393938b3 .hero_image_main {
+    max-height: 468px !important;
+}
+    #shopify-section-template--14602179379337__1647003345393938b3 .main-banner-heading a.button, #shopify-section-template--14628550541449__16475394684543ff1e .main-banner-heading a.button, #shopify-section-template--14622950064265__16475362050121363a .main-banner-heading a.button {
+        margin: 0 0 40px 40px!important;
+}
+    .main-banner-heading {
+        margin: 0 auto 50px;
+    }
+    .story-banner .main-banner-heading {
+        width: 75%
+    }
+    .story-third .main-banner-heading {
+        width: 90%
+    }
+}
+
+.spaced-section {
+    margin: 0
+}
+
+.shopify-section.hero-image-banner .main-banner-heading {
+    text-align: center;
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.shopify-section.hero-image-banner .story-banner .main-banner-heading .line-one {
+    margin-left: 248px;
+    line-height: 1.2
+}
+
+.shopify-section.hero-image-banner .story-third .main-banner-heading {
+    margin-left: 20%;
+    margin-top: 4%;
+    line-height: 1.2
+}
+
+.shopify-section.hero-image-banner .home-first .main-banner-heading .line-one {
+    font-size: 50px;
+    line-height: 60px
+}
+
+.shopify-section.hero-image-banner .main-banner-heading a.button {
+    background-color: rgba(var(--color-button),var(--alpha-button-background));
+    color: rgb(var(--color-button-text));
+    box-shadow: unset!important;
+    text-shadow: unset!important;
+    border: none!important;
+    padding: 12px 24px;
+    min-height: unset;
+    font-size: 0.915em;
+    letter-spacing: 0;
+    font-weight: 500;
+    font-family: 'Poppins',sans-serif;
+    bottom: 0;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    max-width: fit-content;
+}
+
+.scroll {
+    display: none
+}
+
+.home-second h2.image-with-text__heading.h1 {
+    color: #000
+}
+
+.shopify-section.hero-image-banner .home-first .main-banner-heading {
+    max-width: 82%
+}
+
+.shopify-section.hero-image-banner .home-third .main-banner-heading a.button:hover,
+.shopify-section.hero-image-banner .story-third .main-banner-heading a.button:hover {
+    background-color: #eba02d !important
+}
+
+.home-third .main-banner-heading {
+    position: absolute;
+    right: 0;
+    left: auto;
+    width: 43%
+}
+
+
+.page-width.crop-image-container.hero-banner-section.home-banner.home-third.hero_image_main .line-two.main-banner-description {
+    width: auto !important
+}
+
+.shopify-section.hero-image-banner .home-third .main-banner-heading a.button {
+    min-width: 189px
+}
+
+.home-main .shopify-section.hero-image-banner:nth-child(1) {
+    padding-top: 160px !important
+}
+
+@media(max-width:3840px) and (min-width:3000px) {
+    .page-width.crop-image-container.hero-banner-section.home-banner.home-third.hero_image_main {
+        height: 56vh !important
+    }
+    .page-width.crop-image-container.hero-banner-section.home-banner.home-first.hero_image_main {
+        height: 52vh !important
+    }
+    .shopify-section.hero-image-banner .home-first .main-banner-heading {
+        max-width: 67%
+    }
+    .home-third .main-banner-heading {
+        width: 39%
+    }
+}
+
+@media(max-width:2560px) and (min-width:2200px) {
+    .page-width.crop-image-container.hero-banner-section.home-banner.home-first.hero_image_main {
+        height: 77vh !important
+    }
+    .shopify-section.hero-image-banner .home-first .main-banner-heading {
+        max-width: 66%
+    }
+    .page-width.crop-image-container.hero-banner-section.home-banner.home-third.hero_image_main {
+        height: 80vh !important
+    }
+    .home-third .main-banner-heading {
+        width: 40%
+    }
+}
+
+@media(max-width:1920px) and (min-width:1500px) {
+    .page-width.crop-image-container.hero-banner-section.home-banner.home-first.hero_image_main {
+        height: 89vh !important
+    }
+    .shopify-section.hero-image-banner .home-first .main-banner-heading {
+        max-width: 76%
+    }
+    .page-width.crop-image-container.hero-banner-section.home-banner.home-third.hero_image_main {
+        height: 98vh !important
+    }
+    .home-third .main-banner-heading {
+        width: 44%
+    }
+}
+
+@media(max-width:1600px) and (min-width:1200px) {
+    .shopify-section.hero-image-banner .home-first .main-banner-heading .line-one {
+        font-size: 40px;
+        line-height: 50px
+    }
+    .shopify-section.hero-image-banner .main-banner-heading .line-one {
+        font-size: 25px;
+        line-height: 36.9px
+    }
+    .page-width.crop-image-container.hero-banner-section.home-banner.home-third.hero_image_main .line-two.main-banner-description {
+        font-size: 14px !important
+    }
+    .shopify-section.hero-image-banner .story-third .main-banner-heading {
+        margin-left: 5%
+    }
+}
+
+@media(max-width:1199px) {
+  .shopify-section.hero-image-banner .main-banner-heading {
+    margin-bottom: 10px;
+}
+    .shopify-section.hero-image-banner .home-first .main-banner-heading {
+        max-width: 100%
+    }
+    .shopify-section.hero-image-banner .home-third .main-banner-heading .line-one {
+        font-size: 30px
+    }
+    .shopify-section.hero-image-banner .story-banner .main-banner-heading .line-one {
+        margin-left: 0
+    }
+}
+
+@media(max-width:991px) {
+    .shopify-section.hero-image-banner .home-third .main-banner-heading .line-one {
+        font-size: 23px;
+        line-height: 31.9px
+    }
+    .page-width.crop-image-container.hero-banner-section.home-banner.home-third.hero_image_main .line-two.main-banner-description br {
+        display: none
+    }
+    .home-third .main-banner-heading {
+        width: 46%
+    }
+    .header_top .header__heading-link img {
+        margin-top: 0
+    }
+    .home-main .shopify-section.hero-image-banner:nth-child(1) {
+        padding-top: 102px !important
+    }
+}
+
+@media screen and (max-device-width:823px) and (orientation:landscape) {
+    .page-width.crop-image-container.hero-banner-section.home-banner.home-third.hero_image_main .line-two.main-banner-description {
+        font-size: 14px !important
+    }
+    .home-third .main-banner-heading {
+        width: 40%
+    }
+    .page-width.crop-image-container.hero-banner-section.home-banner.home-third.hero_image_main {
+        height: 500px !important
+    }
+    .shopify-section.hero-image-banner .home-first .main-banner-heading .line-one {
+        font-size: 36px;
+        line-height: 52px
+    }
+    .shopify-section.hero-image-banner .main-banner-heading a.button {
+        margin-left: 0
+    }
+    .home-second .image-with-text__content a.button.button--primary {
+        margin-left: 0
+    }
+    .home-second h2.image-with-text__heading.h1 {
+        font-size: 25px
+    }
+    .home-second p {
+        font-size: 14px
+    }
+}
+
+@media(max-width:767px) {
+    .shopify-section.hero-image-banner .main-banner-heading a.button {
+        margin: 55px auto 0;
+        margin-bottom: 25px;
+        display: inline-block;
+        text-align: center;
+        padding: 11px 27px;
+        font-size: 1em;
+    }
+    .home-third .main-banner-heading {
+        width: 100%
+    }
+    .shopify-section.hero-image-banner .home-third .main-banner-heading .line-one {
+        font-size: 29px !important;
+        color: #fff !important;
+        text-shadow: unset !important;
+        line-height: 39px !important;
+        margin-top: 0 !important
+    }
+    .home-third .main-banner-heading {
+        width: 100%;
+        top: 70px;
+        padding: 0 35px
+    }
+    .shopify-section.hero-image-banner .home-third .main-banner-heading .line-one br {
+        display: none
+    }
+    .shopify-section.hero-image-banner .home-first .main-banner-heading .line-one {
+        line-height: 45px
+    }
+    .shopify-section.hero-image-banner .main-banner-heading a.button {
+        padding: 14px 30px
+    }
+    .shopify-section.hero-image-banner .home-third .main-banner-heading a.button {
+        min-width: 168px;
+        padding: 13px 29px
+    }
+    .home-main .shopify-section.hero-image-banner:nth-child(1) {
+        padding-top: 110px !important
+    }
+    .shopify-section.hero-image-banner .story-banner .main-banner-heading .line-one {
+        margin-left: 0
+    }
+}
+
+@media screen and (max-device-width:767px) and (orientation:landscape) {
+    .page-width.crop-image-container.hero-banner-section.home-banner.home-first.hero_image_main {
+        height: 450px !important
+    }
+    .page-width.crop-image-container.hero-banner-section.home-banner.home-third.hero_image_main {
+        height: 340px !important
+    }
+    .shopify-section.hero-image-banner .home-first .main-banner-heading .line-one {
+        width: 70% !important
+    }
+    .shopify-section.hero-image-banner .main-banner-heading a.button {
+        margin-left: 0
+    }
+    .home-second .image-with-text__content a.button.button--primary {
+        margin-left: 0
+    }
+}
+
+@media screen and (max-device-width:568px) and (orientation:landscape) {
+    .shopify-section.hero-image-banner .home-third .main-banner-heading .line-one {
+        font-size: 22px !important;
+        line-height: 32px !important
+    }
+    .shopify-section.hero-image-banner .main-banner-heading a.button {
+        margin-left: 0
+    }
+    .home-second .image-with-text__content a.button.button--primary {
+        margin-left: 0
+    }
+}
+
+@media(max-width:556px) {
+    .home-third .main-banner-heading {
+        top: 95px
+    }
+}
+
+@media(max-width:556px) and (min-width:414px) {
+    .page-width.crop-image-container.hero-banner-section.home-banner.home-first.hero_image_main {
+        height: 780px !important
+    }
+    .page-width.crop-image-container.hero-banner-section.home-banner.home-third.hero_image_main .line-two.main-banner-description {
+        width: 80% !important
+    }
+}
+
+@media(max-width:375px) {
+    .page-width.crop-image-container.hero-banner-section.home-banner.home-third.hero_image_main {
+        height: 830px !important
+    }
+    .home-third .main-banner-heading {
+        top: 75px
+    }
+    .page-width.crop-image-container.hero-banner-section.home-banner.home-third.hero_image_main .line-two.main-banner-description {
+        width: 90% !important
+    }
+}
+
+@media(max-width:330px) {
+    .shopify-section.hero-image-banner .home-third .main-banner-heading .line-one {
+        font-size: 22px !important;
+        line-height: 32px !important
+    }
+    .shopify-section.hero-image-banner .home-first .main-banner-heading .line-one {
+        font-size: 30px !important
+    }
+    .page-width.crop-image-container.hero-banner-section.home-banner.home-first.hero_image_main {
+        height: 600px !important
+    }
+    .page-width.crop-image-container.hero-banner-section.home-banner.home-third.hero_image_main {
+        height: 700px !important
+    }
+    .home-third .main-banner-heading {
+        top: 73px
+    }
+    .page-width.crop-image-container.hero-banner-section.home-banner.home-third.hero_image_main {
+        height: 700px !important
+    }
+    .shopify-section.hero-image-banner .main-banner-heading a.button {
+        font-size: 19px
+    }
+}
+
+@media only screen and (min-device-width :768px) and (max-device-width :1024px) {
+    .shopify-section.hero-image-banner .story-third .main-banner-heading {
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+        line-height: 1.33 !important;
+        align-self: auto !important
+    }
+}
+
+@media (max-width: 767px) {
+#shopify-section-template--15034043990212__16355225437cb80dd0.hero-image-banner .main-banner-heading a.button {
+    margin-bottom: 25px;
+    padding: 11px 27px;
+    font-size: 1em;
+}
+  #shopify-section-template--15034043990212__163552481888041f83.hero-image-banner .main-banner-heading a.button {
+    margin-bottom: 25px;
+    padding: 11px 27px;
+    font-size: 1em;
+}
+  #shopify-section-template--14622950064265__16475362050121363a a.button {
+    margin: 0 0 0 6px !important;
+}
+  #shopify-section-template--14622950064265__16475362050121363a .main-banner-heading {
+    margin: 0 auto 45px !important;
+}
+  #shopify-section-template--14622519656585__16472265791f5bc6da .crop-image-container .line-one[data-v-460a2e77] {
+    font-size: 3em !important;
+}
+  .app-home {
+    margin-top: 80px;
+}
+  .app-home .crop-image.hero_image {
+    background-size: 120% !important;
+    background-position: bottom !important;
+    background-color: #dcdcdc;
+}
+}
+
+@media only screen and (min-width: 749px) and (max-width: 1500px) {
+  .contour-home {
+    margin-top: 60px;
+}
+  .app-home, .app-mens, .app-womens {
+    max-height: 248px !important;
+}
+  .app-home .hero_image, .app-mens .hero_image, .app-womens .hero_image {
+    background-position: bottom !important;
+    background-color: #dcdcdc !important;
+    background-size: 90% !important;
+}
+.shopify-section.hero-image-banner .main-banner-heading a.button {
+    bottom: 17px !important;
+}
+ .crop-image-container.hero_image_main {
+    height: calc(28vh + 74px) !important;
+}
+  .contour-womens {
+    margin-bottom: 0;
+}
+  .tempo-womens, .league-mens {
+    margin-top: 35px;
+}
+  .app-womens, .app-mens {
+    margin-bottom: 18px;
+}
+.vital-home {
+    margin-bottom: 22px;
+}
+}
+
+@media only screen and (min-width: 1501px) {
+.contour-home {
+    margin-top: 112px;
+}
+
+.app-home {
+    margin-top: 15px;
+}
+
+.vital-mens {
+    margin-bottom: 25px;
+}
+
+.league-mens {
+    margin-top: 61px;
+    margin-bottom: 12px;
+}
+
+.app-mens {
+    margin-bottom: 5px;
+}
+
+.contour-womens {
+    margin-bottom: 22px;
+}
+
+.tempo-womens {
+    margin-top: 62px;
+}
+
+.tempo-womens {
+    margin-bottom: 12px;
+}
+
+.app-womens {
+    margin-bottom: 5px;
+}
+}

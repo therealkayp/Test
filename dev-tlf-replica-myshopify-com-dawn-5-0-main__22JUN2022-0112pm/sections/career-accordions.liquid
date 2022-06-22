@@ -1,0 +1,187 @@
+<div class="career-accordion">
+
+  <div class="accordion__item">
+    <button class="accordion__btn">
+
+      <span class="accordion__caption">Benefits</span>
+      <span class="accordion__icon"><i class="fa fa-plus"></i></span>
+    </button>
+
+    <div class="accordion__content">
+      <p>The most important thing is that you want to learn something that interests you, because once you start learning, you’ll be with this topic for a while. Choosing something just because it’s popular or what others are doing isn’t the way to go because if you don’t have a true interest in it, you’ll lose the motivation to learn! Spend some time seriously looking into the different tech career paths before choosing one to go down.</p>
+    </div>
+  </div>
+
+  <div class="accordion__item">
+    <button class="accordion__btn">
+
+      <span class="accordion__caption">Health</span>
+      <span class="accordion__icon"><i class="fa fa-plus"></i></span>
+    </button>
+
+    <div class="accordion__content">
+      <p>I usually tell most people to start by learning HTML and CSS, then move into learning JavaScript. The reason is that JavaScript is used everywhere: frontend, backend, and even to build mobile apps. It has many use cases, which is why I think it’s smart to learn.</p>
+    </div>
+  </div>
+
+  <div class="accordion__item">
+    <button class="accordion__btn">
+
+      <span class="accordion__caption">Dental</span>
+      <span class="accordion__icon"><i class="fa fa-plus"></i></span>
+    </button>
+
+    <div class="accordion__content">
+      <p>If you have an interest in coding and graphic design, then there’s nothing to say you shouldn’t learn skills in both areas. They often work hand-in-hand, so having knowledge and skills in both areas could be desirable for certain career paths. You could also think about pursuing something in between like UI design, which is a very in-demand career right now!
+        <br><br>
+        In general, having design skills along with coding skills is helpful. But it’s also okay to do one over the other. My advice would be to just get started! You can always change directions later… as long as you’re changing directions to the final destination you’re looking for!
+      </p>
+    </div>
+  </div>
+
+  <div class="accordion__item">
+    <button class="accordion__btn">
+
+      <span class="accordion__caption">E.A.P</span>
+      <span class="accordion__icon"><i class="fa fa-plus"></i></span>
+    </button>
+
+    <div class="accordion__content">
+      <p>Now, in 2020, it’s a no-brainer: Python 3 is definitely the way to go. There are still some situations where picking up Python 2 might be advantageous, or you may just want to learn a little of the history and the differences between Python 2 and 3 for curiosity’s sake, but job-wise, Python 3 is the clear winner.</p>
+    </div>
+  </div>
+
+  <div class="accordion__item">
+    <button class="accordion__btn">
+
+      <span class="accordion__caption">Health And Wellness</span>
+      <span class="accordion__icon"><i class="fa fa-plus"></i></span>
+    </button>
+
+    <div class="accordion__content">
+      <p>Personally, I’d say choose a path and stick to it! Learning too many things at once will slow you down. Here are a few ideas of things you can choose to focus on, and a little bit about each one.</p>
+    </div>
+  </div>
+   <div class="accordion__item">
+    <button class="accordion__btn">
+
+      <span class="accordion__caption">$100/Mo Co. Apparel Allowance</span>
+      <span class="accordion__icon"><i class="fa fa-plus"></i></span>
+    </button>
+
+    <div class="accordion__content">
+      <p>Personally, I’d say choose a path and stick to it! Learning too many things at once will slow you down. Here are a few ideas of things you can choose to focus on, and a little bit about each one.</p>
+    </div>
+  </div>
+   <div class="accordion__item">
+    <button class="accordion__btn">
+
+      <span class="accordion__caption">PTO</span>
+      <span class="accordion__icon"><i class="fa fa-plus"></i></span>
+    </button>
+
+    <div class="accordion__content">
+      <p>Personally, I’d say choose a path and stick to it! Learning too many things at once will slow you down. Here are a few ideas of things you can choose to focus on, and a little bit about each one.</p>
+    </div>
+  </div>
+</div>
+
+<style>
+.career-accordion {
+    width: 65rem;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+  
+  .career-accordion i.fa.fa-plus {
+    font-size: .45em;
+}
+
+.accordion__heading {
+  margin-bottom: 1rem;
+  padding: 0 1.4rem;
+}
+
+.accordion__item:not(:last-child) {
+  border-bottom: 1px solid lightgrey;
+}
+
+.accordion__btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+  font-family: 'Poppins';
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  font-size: 1.5em;
+  font-weight: 600;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.accordion__icon {
+  border-radius: 50%;
+  transform: rotate(0deg);
+  transition: 0.3s ease-in-out;
+  opacity: 0.9;
+}
+.accordion__item--active .accordion__icon {
+  transform: rotate(135deg);
+}
+
+.accordion__content {
+  font-weight: 300;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transform: translateX(16px);
+  transition: max-height 0.5s ease, opacity 0.5s, transform 0.5s;
+}
+.accordion__content p {
+  padding: 1rem 1.8rem;
+}
+
+.accordion__item--active .accordion__content {
+  opacity: 1;
+  transform: translateX(0px);
+  max-height: 100vh;
+}
+</style>
+
+<script>
+  // select all accordion items
+const accItems = document.querySelectorAll(".accordion__item");
+
+// add a click event for all items
+accItems.forEach((acc) => acc.addEventListener("click", toggleAcc));
+
+function toggleAcc() {
+  // remove active class from all items exept the current item (this)
+  accItems.forEach((item) => item != this ? item.classList.remove("accordion__item--active") : null
+  );
+
+  // toggle active class on current item
+  if (this.classList != "accordion__item--active") {
+    this.classList.toggle("accordion__item--active");
+  }
+}
+</script>
+
+{% schema %}
+  {
+    "name": "Career Accordion",
+    "tag": "section",
+    "settings": [],
+"presets": [
+{
+"name": "Career Accordion",
+"category": "Custom"
+}
+]
+  }
+{% endschema %}

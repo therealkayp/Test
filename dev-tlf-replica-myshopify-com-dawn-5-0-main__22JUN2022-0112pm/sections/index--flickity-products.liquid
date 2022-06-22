@@ -1,0 +1,274 @@
+<link rel="stylesheet" href="https://npmcdn.com/flickity@2/dist/flickity.css">
+
+<div class="carousel-container landing social-complete">
+  <div class="ShopTheLook__Inner">
+    <a class="ShopTheLook__Dot ShopTheLook__Dot--light" data-product-index="1" style="left: 38%; top: 85%" href="#carousel-cell2"></a><a class="ShopTheLook__Dot ShopTheLook__Dot--light is-active" data-product-index="2" style="left: 60%; top: 59%" href="#carousel-cell1"></a>
+    <img class="product-flick" src="https://cdn.shopify.com/s/files/1/0566/6393/3065/files/ugc-yotpo-7.jpg?v=1647137449" alt="Morgan">
+  </div>
+  <div id="right-side-cell">
+    <div class="carousel" data-flickity='{ "hash": true }'>
+      <div class="carousel-cell" id="carousel-cell1">
+        {% render 'icon-heart' %}
+        <img src="https://cdn.shopify.com/s/files/1/2665/0346/products/genesis-high-waisted-workout-shorts-women-shorts-tlf-513801_550x.jpg?v=1624328477" alt="Tempo Women's Shorts" />
+        <div class="cell-product name"><span>Tempo Ribbed Workout Sports Bra 2.0</span><br>
+          <span style="color:#2e2e2e">Black</span>
+          <span style="color:#868686">$58.00</span>
+        </div>
+          <a class="flickity-buy-now" href="/products/tlf-vital-fleece-pullover-hoodie-deep-sapphire" target="_blank">
+          <button class="flickity-buy">Buy now</button>
+          </a>
+      </div>
+      <div class="carousel-cell" id="carousel-cell2">
+        {% render 'icon-heart' %}
+        <img src="https://cdn.shopify.com/s/files/1/2665/0346/products/genesis-high-support-sports-bra-women-sports-bras-tlf-948830_550x.jpg?v=1624328132" alt="Tempo Women's Sports Bra" />
+        <div class="cell-product name"><span>Tempo Ribbed Workout Sports Bra 2.0</span><br>
+          <span style="color:#2e2e2e">Black</span>
+          <span style="color:#868686">$58.00</span>
+        </div>
+          <a class="flickity-buy-now" href="/products/tlf-vital-fleece-pullover-hoodie-deep-sapphire" target="_blank">
+          <button class="flickity-buy">Buy now</button>
+          </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  a.flickity-buy-now {
+    margin-top: 23px;
+    text-align: center;
+}
+  button.flickity-buy {
+    letter-spacing: .01em;
+    background: #2e2e2e;
+    color: white;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 26px;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+  .carousel-container img {
+    transition: none;
+  }
+  @media only screen and (min-width: 601px) {
+    img.product-flick {
+      width: 525px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    img.product-flick {
+      max-width: 100%;
+      max-width: 355px;
+    }
+    .ShopTheLook__Inner {
+    padding: 0 0 15px !important;
+    }
+    .carousel {
+    width: 355px !important;
+    }
+    .carousel-container {
+    padding-top: 0 !important;
+    }
+    .carousel-cell img {
+     min-width: 355px !important;
+    }
+  }
+
+  .cell-product.name span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+  }
+
+  a.ShopTheLook__Dot.is-active,
+  .supports-hover a.ShopTheLook__Dot:hover {
+    transform: scale(1.5);
+  }
+
+  a.ShopTheLook__Dot {
+    position: absolute;
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin: -8px 0 0 -8px;
+    background: #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 10px rgb(0 0 0 / 25%);
+    cursor: pointer;
+    z-index: 1;
+    transform: scale(1);
+    transition: transform .25s ease-in-out;
+  }
+
+ a.ShopTheLook__Dot.is-active::after {
+    -webkit-animation: 1.4s shopTheLookDotKeyframe ease-in-out infinite;
+    animation: 1.4s shopTheLookDotKeyframe ease-in-out infinite;
+  }
+
+  a.ShopTheLook__Dot::after {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 40px;
+    left: -12px;
+    top: -12px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, .4);
+  }
+
+  @-webkit-keyframes shopTheLookDotKeyframe {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.05);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes shopTheLookDotKeyframe {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.05);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .cell-product.name {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-bottom: 5px;
+    text-align: left;
+    flex-direction: column;
+  }
+
+  .flickity-enabled:focus {
+    outline: none;
+    box-shadow: none;
+    outline-offset: unset;
+  }
+
+  .ShopTheLook__Inner {
+    display: inline-block;
+    padding: 0 30px 15px;
+    position: relative;
+  }
+
+  .carousel-container {
+    text-align: center;
+    padding-bottom: 38px;
+    padding-top: 35px;
+  }
+
+  #right-side-cell {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .carousel {
+    width: 250px;
+    background-color: transparent;
+  }
+
+  .carousel-cell {
+    width: 100%;
+  }
+
+  .carousel-cell img {
+    display: block;
+    max-width: 100%;
+    min-width: 250px;
+    /* dim unselected */
+    opacity: 0;
+    -webkit-transform: scale(1);
+    transform: 0;
+    -webkit-filter: 0;
+    filter: 0;
+    -webkit-transition: opacity 0, -webkit-transform 0, transform 0,
+      -webkit-filter 0, filter 0;
+    transition: 0;
+  }
+
+  /* brighten selected image */
+  .carousel-cell.is-selected img {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-filter: none;
+    filter: none;
+  }
+
+  /* buttons, no circle */
+  .flickity-prev-next-button {
+    display: none;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    opacity: 0.6;
+  }
+
+  .flickity-prev-next-button:hover {
+    background: transparent;
+    opacity: 1;
+  }
+
+  /* arrow color */
+  .flickity-prev-next-button .arrow {
+    fill: white;
+  }
+
+  .flickity-prev-next-button.no-svg {
+    color: white;
+  }
+
+  /* closer to edge */
+  .flickity-prev-next-button.previous {
+    left: 0;
+  }
+
+  .flickity-prev-next-button.next {
+    right: 0;
+  }
+
+  /* hide disabled button */
+  .flickity-prev-next-button:disabled {
+    display: none;
+  }
+
+  .flickity-page-dots .dot {
+    display: none;
+    background: transparent;
+    margin: 0 5px 0 5px;
+    border: 1px #626262 solid;
+    box-shadow: 0 0 0 2px #f1f1f1 inset;
+    width: 12px;
+    height: 12px;
+  }
+
+  .flickity-page-dots .dot:hover {
+    background: #626262;
+  }
+
+  .flickity-page-dots .dot.is-selected {
+    opacity: 1;
+    background: #626262;
+  }
+</style>
+
+<script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
+<script src="https://unpkg.com/flickity-hash@1/hash.js"></script>
